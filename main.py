@@ -201,5 +201,7 @@ if __name__ == '__main__':
     y_train = y_train.astype(int)
     y_test = y_test.astype(int)
 
+    print ("Hello World")
+
     # Train and test the perceptron
     perceptron(X_train_with_bias, y_train, X_test_with_bias, y_test)
